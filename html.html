@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVL Strand Promotion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div id="landing-page">
+        <div class="background-image"></div>
+        <div class="overlay">
+            <h1>Welcome to Sagkahan National High School</h1>
+            <p>Discover the TVL Strand and all it has to offer</p>
+            <button id="get-started-btn">Get Started</button>
+        </div>
+    </div>
+    <div id="login-container" style="display:none;">
+        <img src="logo.png" alt="School Logo" id="login-logo">
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="return handleLogin()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" required>
+                <span id="togglePassword" class="toggle-password">&#128065;</span>
+            </div>
+            <button type="submit">Login</button>
+            <p id="loginStatusMessage"></p>
+        </form>
+    </div>
+    <div id="content-container" style="display:none;">
+        <header>
+            <img src="logo.png" alt="School Logo" id="school-logo">
+            <h1>TVL Strand Promotion</h1>
+        </header>
+        <main>
+            <section id="group-members">
+                <h2>Group Members</h2>
+                <div class="member">
+                    <img src="leader.png" alt="Group Leader">
+                    <p><strong>Leader: Jomel Martinez</strong></p>
+                    <p><strong>Members:</strong></p>
+                    <p><strong>Arjelyn S. Ay-ay</strong></p>
+                    <p><strong>Thylla Coleen Z. Cabias </strong></p>
+                    <p><strong>Leziel Gerez J.</strong></p>
+                    <p><strong>Ehra Dela Peña</strong></p>
+                    <p><strong>Edcon smith pindos</strong></p>
+                    <p><strong>Keziah Kate Cuera</strong></p>
+                    <p><strong>Flrdlyn Bacolcol</strong></p>
+                    <p><strong>Jean Michel A. Grabillo</strong></p>
+                    <p><strong>Resha Valenzuela</strong></p>
+                    <p><strong>Nina Grace Cabanatan</strong></p>
+                    <p><strong>Missing person</strong></p>
+                    <p><strong>Missing person</strong></p>
+                    <p><strong>Missing person</strong></p>
+                    
+                
+                    
+                </div>
+                <!-- Add more group members as needed -->
+            </section>
+            <section id="overview">
+                <h2>Introduction to TVL Strand</h2>
+                <p>The TVL (Technical-Vocational-Livelihood) strand prepares students for technical and vocational careers. It focuses on practical skills and hands-on training.</p>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project 1: Title</h3>
+                    <p>Description of project 1.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </section>
+        </main>
+        <footer>
+            <p><p>If you have any questions or would like to enroll, visit us at Sagkahan National High School or send us a message on our Facebook page. We're here to help!</p></p>
+            <h3>Contact Us</h3>
+            <p>Facebook: <a href="https://www.facebook.com/SNHS.Tacloban?mibextid=ZbWKwL" target="_blank" aria-label="Facebook Page">Facebook Page</a></p>
+            <p>Location: <a href="https://www.google.com/maps/place/Sagkahan+National+High+School/@11.2159968,125.0024764,19.75z/data=!4m6!3m5!1s0x3308771973c0a099:0xe1cec5a63c4e44b1!8m2!3d11.216022!4d125.002578!16s%2Fg%2F1tdr0v50?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank" aria-label="School Location">School Location</a></p>
+         
+        </footer>
+    </div>
+</body>
+</html>
