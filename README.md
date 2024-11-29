@@ -27,7 +27,7 @@ To install and run the project locally:
 
 ## Usage
 
-Open `index.html` in your web browser to view the website.
+Open `html.html` in your web browser to view the website.
 
 ## Features
 
